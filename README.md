@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+To create documentation and then a minimum demonstration about how you as the developer will execute/develop this user story: "As a Facebook user, I want to see my Facebook post performance on a separate dashboard application."
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Documentation:
+Step 1: Compiling the Needs
+Goal: Gain an understanding of the user's requirements and the Facebook data at hand.
+Tasks: Conduct requirements interviews with stakeholders.
+As certain the essential performance indicators that consumers desire to view, such as likes, comments, shares, and reach.
+Find the Facebook Graph API endpoints required for the retrieval of post data.
 
-## Available Scripts
+Step 2:
+Design Goal: Arrange the dashboard application's architecture and user interface.
+Create a dashboard arrangement that displays post-performance metrics.
+Identify the technical stack, such as the backend server and frontend framework.
+Make prototypes or wireframes to see how the dashboard will look.
 
-In the project directory, you can run:
+Step 3: Development Goal: Put the dashboard application into use in accordance with the specifications and design.
+Tasks: Configure Facebook authentication so that user data can be accessed.
+Create front-end elements to show post-performance metrics.
+Create backend services to retrieve and handle Facebook Graph API data.
+In order to obtain and provide post-performance data, integrate the front end and back end.
+To verify dependability and functionality, extensively test the program.
 
-### `npm start`
+Step4: Deployment Goal: Make the dashboard application available to users.
+Tasks: Select a hosting platform (such as AWS) for the application's deployment.
+Set up the deployment parameters for scalability and security.
+Install the program on the hosting platform of your choice.
+Once the application is deployed, keep an eye out for any problems.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Step 5: Upkeep and Assistance
+Goal: Assure the dashboard application's continuous enhancement and functionality.
+Tasks: Offer user assistance and quickly resolve any issues that are reported.
+Maintain the program on a regular basis to maintain it current with modifications to Facebook's API or user requirements.
+Get user input for upcoming upgrades and improvements.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Explanation:
+Conditions:
+Access to Facebook Developer account.
+fundamental knowledge of backend and frontend programming.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Steps: Use React to create a simple front-end application.
+Incorporate Facebook login features for user authentication.
+Using the user's access token, retrieve post-performance data from the Facebook Graph API.
+On the frontend dashboard, show the data that was retrieved.
+View post performance metrics and test the program by connecting in with a Facebook account.
+In this demo, customers will be able to monitor their Facebook post performance metrics in real-time, showcasing the dashboard application's key features.
